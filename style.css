@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+
+
+body{
+    font-family:'Titillium Web', sans-serif; 
+}
+.header-area {
+    background-color:#87509c ;
+}
+
+.header-area  nav ul li a {
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+
+
+.header-area  nav ul li a:hover {
+    background-color:#643a79;
+    color: white;
+}
+.header-area .hero-area {
+    margin: 150px 0;
+}
+
+.header-area .hero-area h1{
+    color: white;
+    font-weight: 700;
+    font-size: 42px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 60px;
+    line-height: 48px;
+}
+.header-area .hero-area a{
+    background-color: #eb7d4b;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    border-bottom: 3px solid #c86a40;
+    font-size: 0.9em;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+.header-area .hero-area a:hover {
+    border: 3px solid #eb7d4b;
+    background-color: transparent;
+}
+/*header area css code end*/
+/*services area css code start*/
+
+.services-area {
+    padding: 100px 0;
+    background-color: #18c2a5;
+}
+
+.services-area .section-top {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.services-area .section-top .section-title {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.services-area .section-top .section-title::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: -23px;
+    transform: translateX(-50%);
+    width: 85px;
+    height: 4px;
+    background-color: #14a58c;
+}
+
+
+.services-area .section-top .section-desc {
+    color: white;
+    opacity: 0.8;
+    width: 40%;
+    margin: auto;
+}
+
+@media (max-width: 991px) {
+    .services-area .section-top .section-desc{
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-area .section-top .section-desc{
+        width: 100%;
+    }
+}
+
+.services-area .section-contents .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.services-area .section-contents .item .icon img {
+    height: 125px;
+}
+
+.services-area .section-contents .item .icon {
+    margin-bottom: 60px;
+}
+
+.services-area .section-contents .item strong {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.services-area .section-contents .item p {
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+/*services area css code end*/

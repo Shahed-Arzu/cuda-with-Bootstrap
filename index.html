@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/cuda.png" type="image/x-icon">
+    <title>Cuda | by Shahed</title>
+
+    <!--connect bootstrap css file-->
+    <link rel="stylesheet" href="./assets/lib/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <!-- connect wow animate css file-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+
+
+    <!-- connect stylesheet css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Area start-->
+    <header id="header" class="header-area pt-3  pb-5">
+        <!-- Navigation area start-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid w-75" src="./assets/img/cuda.png" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div id="main-menu" class="collapse navbar-collapse">
+                    <ul Class="navbar-nav ms-auto text-uppercase">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">about</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+        <!-- Navigation area end-->
+        <!-- Hero area start-->
+        <div class="hero-area my-5">
+            <div class="container text-center">
+                <h1 id="element" class="main-title">
+
+                </h1>
+                <a class="btn" href="#">work with us</a>
+            </div>
+        </div>
+        <!-- Hero area end-->
+
+    </header>
+    <!-- Header Area end-->
+
+
+
+
+
+    <!-- service area start-->
+
+    <section id="services" class="services-area">
+        <div class="container">
+            <!-- section top area-->
+            <div class="section-top">
+                <h2 class="section-title">services we provide</h2>
+                <p class="section-desc">We are working with both individuals and businesses from all over the globe
+                    to create awesome websites and applications.</p>
+            </div>
+
+
+
+
+
+
+            <!--section contents area-->
+            <div class="section-contents">
+                <div class="row g-3 gy-md-5">
+                    <div class="col-md-6 col-lg-3 wow bounceInLeft">
+                        <div class="item">
+                            <div class="icon">
+                                <img src="./assets/img/flag.png" alt="flag" class="img-fluid">
+                            </div>
+                            <strong>branding</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus et ea!</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3 wow bounceInUp">
+                        <div class="item">
+                            <div class="icon">
+                                <img src="./assets/img/pencil.png" alt="pencil" class="img-fluid">
+                            </div>
+                            <strong>design</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus et ea!</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3 wow bounceInDown">
+                        <div class="item">
+                            <div class="icon">
+                                <img src="./assets/img/gear.png" alt="gear" class="img-fluid">
+                            </div>
+                            <strong>development</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus et ea!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 wow bounceInRight">
+                        <div class="item">
+                            <div class="icon">
+                                <img src="./assets/img/rocket.png" alt="rocket" class="img-fluid">
+                            </div>
+                            <strong>rocket science</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus et ea!</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <!-- service area end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/lib/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new TypeIt("#element", {
+                strings: [
+                    " Hi there! We are the new kids on the block and we build awesome websites and mobile apps."
+                ],
+            }).go();
+        });
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
