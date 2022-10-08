@@ -132,11 +132,104 @@ body{
     color: white;
     opacity: 0.8;
 }
-
-
-
-
-
-
-
 /*services area css code end*/
+
+
+
+
+/* team area css code start */
+.team-area {
+    padding: 120px 0;
+    background-color: #e7f1f8;
+  }
+  
+  .team-area .section-top {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .team-area .section-top .section-title {
+    position: relative;
+    color: #3c4761;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .team-area .section-top .section-title::after {
+    position: absolute;
+    left: 50%;
+    bottom: -23px;
+    transform: translateX(-50%);
+    content: '';
+    width: 85px;
+    height: 4px;
+    background-color: #c8d9e5;
+  }
+  
+  .team-area .section-top .section-desc {
+    color: #3c4761;
+    opacity: 0.8;
+    width: 40%;
+    margin: auto;
+  }
+  
+  @media (max-width: 991px) {
+    .team-area .section-top .section-desc {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .team-area .section-top .section-desc {
+      width: 100%;
+    }
+  }
+  
+  .team-area .section-contents .all-team-member .team-member {
+    text-align: center;
+  }
+  
+  .team-area .section-contents .all-team-member .team-member .profile-image {
+    display: block;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .team-area .section-contents .all-team-member .team-member .profile-name {
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #3c4761;
+  }
+  
+  .team-area .section-contents .all-team-member .team-member .member-position {
+    display: block;
+    font-size: 16px;
+    color: #30bae7;
+  }
+  
+  .team-area .section-contents .all-team-member .team-member .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .team-area .section-contents .all-team-member .team-member .social-links li a svg {
+    background-color: #c8d9e5;
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+  }
+  /* team area css code end */
